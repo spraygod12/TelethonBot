@@ -2,7 +2,7 @@
 # // @BotzHub //
 from .. import BotzHub
 from telethon import events, custom, Button
-SMEX_PIC = "https://telegra.ph/file/3979593187378b2b54057.jpg"
+SMEX_PIC = "https://telegra.ph/file/14bf5a328b02eff37ed26.jpg"
 @BotzHub.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
     await BotzHub.send_file(event.chat_id,
