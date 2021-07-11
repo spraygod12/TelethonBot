@@ -14,8 +14,6 @@ async def _(event):
                     buttons=[
                         [Button.url("𝙼𝚢 𝙾𝚠𝚗𝚎𝚛", "t.me/R2K_VENOM")]
                     ])
-else:
-  await event.reply("**BHAI YAAR THUM GAAND MARAO**")
 
     
 @BotzHub.on(
@@ -25,8 +23,6 @@ async def amdddd(event):
     text = event.pattern_match.group(1)
     k = [[Button.text(text)]]
     await BotzHub.send_message(event.chat_id, "😈", buttons=k)
-  else:
-    await event.reply("**BHAI YAAR THUM GAAND MARAO**")
     
 @BotzHub.on(events.NewMessage(pattern="^/skem"))
 async def start_all(event):
@@ -38,5 +34,3 @@ async def creator(event):
     await event.edit(event.chat_id, "𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴  @R2K_VENOM")
 
 ########################################################################################################################################
-
-                     
